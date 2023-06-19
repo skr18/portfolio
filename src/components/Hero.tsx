@@ -21,7 +21,7 @@ function Hero({}: Props) {
     <div className='h-screen flex flex-col space-y-15 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle/>
         <img className='rounded-full relative h-32 w-32 mx-auto' 
-        src="https://media.licdn.com/dms/image/D4D03AQF7v6hytlynvw/profile-displayphoto-shrink_800_800/0/1672839595936?e=1686787200&v=beta&t=znsBGAvP5aDVtYPBAvmBukTedTtYP-J2f5NU2SUaLpM" alt="image" />
+        src="https://media.licdn.com/dms/image/D4D03AQF7v6hytlynvw/profile-displayphoto-shrink_800_800/0/1672839595936?e=1692835200&v=beta&t=qyXqZ9iWapcsbLeAZFskdfVYQsg2Ubus5uoVxqehhlY" alt="image" />
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]' >
                 Software Engineer
