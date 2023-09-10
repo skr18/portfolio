@@ -15,7 +15,7 @@ function Projects({}: Props) {
         "https://effortless-exams.netlify.app/static/media/LOGO2%20(2).af33bb52eda54769d35b.gif",
       technologies: [
         "https://user-images.githubusercontent.com/29685463/215034546-ced8629f-af35-46b9-8f1e-3b66fb93bc72.png",
-        "https://raw.githubusercontent.com/CNFeffery/feffery-antd-components/HEAD/fac-logo.svg",
+        "https://www.bookmarks.design/media/image/ant-design.jpg",
         "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_4c2c908435a514466a56ed2f4cc49417/netlify.png",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png",
       ],
@@ -38,7 +38,7 @@ function Projects({}: Props) {
         "https://user-images.githubusercontent.com/29685463/215034546-ced8629f-af35-46b9-8f1e-3b66fb93bc72.png",
         "https://user-images.githubusercontent.com/29685463/215034529-52e81f99-f1c5-4653-9c9b-28d28c0c59a8.png",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1024px-Socket-io.svg.png",
-        "https://raw.githubusercontent.com/CNFeffery/feffery-antd-components/HEAD/fac-logo.svg",
+        "https://www.bookmarks.design/media/image/ant-design.jpg",
         "https://user-images.githubusercontent.com/29685463/215034516-095feb28-0dab-4528-aca5-92067d3a9f49.png",
       ],
       date: "January 2023 (Prototype Stage)",
