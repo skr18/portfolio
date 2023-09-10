@@ -9,7 +9,7 @@ function Exp({}: Props) {
     {
       role: "Cloud Architect - Intern",
       pic:
-        "https://media.licdn.com/dms/image/C4D0BAQGd4nu3vscqQw/company-logo_200_200/0/1622444193671?e=1689811200&v=beta&t=4-ZpNzlN4ViEUZCFxY98E2wR1vzI3vgus-4TznviUKo",
+        "https://media.licdn.com/dms/image/C4D1BAQG5G6i5JwUoxA/company-background_10000/0/1622444659854?e=1694973600&v=beta&t=vr_p7dxQq-kfmU1LJjNrCdZ6AtGs4JwmeRo5TKT2tRc",
       technologies: [
         "https://swimburger.net/media/ppnn3pcl/azure.png",
         "https://pandorafms.com/blog/wp-content/uploads/2016/03/docker-cloud-logo.png",
