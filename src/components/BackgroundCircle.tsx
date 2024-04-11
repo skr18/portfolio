@@ -18,7 +18,7 @@ function BackgroundCircle({}: Props) {
           loop:true
         }}
         className='relative flex justify-center items-center'>
-        <div className='absolute border border-[#414040] rounded-full h-[300px] w-[300px] mt-64 animate-ping '/>
+        <div className='absolute border border-[#414040] rounded-full h-[300px] w-[300px] mt-72 animate-ping '/>
         {/* <div className='rounded-full border border-[#333333]  h-[300px] w-[300px] absolute mt-52'/> */}
         {/* <div className='rounded-full border border-[#333333]  h-[500px] w-[500px] absolute mt-52'/> */}
         <div className='rounded-full border border-[#F7AB0A] opacity-20  h-[670px] w-[670px] absolute mt-52 animate-pulse'/>
