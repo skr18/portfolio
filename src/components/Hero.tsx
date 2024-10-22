@@ -20,7 +20,7 @@ function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-15 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle/>
-        <img className='rounded-full relative h-40 w-40 mx-auto' 
+        <img className='rounded-full relative h-40 w-40 mx-auto mb-44' 
         src="https://i.postimg.cc/9M9L17SG/Untitled-design.jpg" alt="profileImage" />
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]' >
