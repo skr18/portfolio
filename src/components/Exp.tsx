@@ -1,15 +1,33 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import ExpCard from './ExpCard';
-
 type Props = {}
 
 function Exp({}: Props) {
   const exp = [
     {
+      role: "Full Stack Developer",
+      pic: "/logos/tcs_logo.jpg",
+      technologies: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg",
+
+      ],
+      company:"Tata Consultancy Services",
+      date: "January 2025 - Present",
+      points: [
+        "Worked as a Full Stack Developer to design, develop, and deploy new features across frontend and backend, enhancing UI/UX, implementing business change requests, and modernizing legacy components including deprecated jQuery code.",
+        "Integrated secure third-party APIs for data exchange and implemented Agent Code integration modules to enable exclusive customer offers and automate agent commission processing.",
+        "Optimized complex database queries and application workflows to improve system performance, scalability, and response time while ensuring high code quality and maintainability",
+      ],
+    },
+    {
       role: "Cloud Architect - Intern",
       pic:
-        "https://i.postimg.cc/L8RMrzM6/ingenious-Tech.jpg",
+        "/logos/ingenious-tech-world-logo.png",
       technologies: [
         "https://swimburger.net/media/ppnn3pcl/azure.png",
         "https://pandorafms.com/blog/wp-content/uploads/2016/03/docker-cloud-logo.png",
@@ -39,7 +57,7 @@ function Exp({}: Props) {
         <div className='w-full mt-20 flex justify-center space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
         {exp.map((item) => (
           // @ts-ignore
-          <ExpCard key={item} proj={item} tech={item.technologies} />
+          <ExpCard key={item.role} proj={item} tech={item.technologies} />
         ))}
         </div>
     </motion.div>

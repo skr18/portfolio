@@ -9,10 +9,11 @@ function Hero({}: Props) {
     const [text,count] = useTypewriter({
         
         words:[
-            "Hi My Self Sujeet Rath",
-            "Coder/ Gamer",
-            "Full Stack Developer",
-            "Loves To Implement Backend"
+            "Sujeet Kumar Rath",
+            "MERN & DevOps Engineer",
+            "K8s & Cloud Architect",
+            "Automating The World",
+            "Coder By Day, Gamer By Night",
         ],
         loop:true,
         delaySpeed:2000,
@@ -21,7 +22,7 @@ function Hero({}: Props) {
     <div className='h-screen flex flex-col space-y-15 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle/>
         <img className='rounded-full relative h-40 w-40 mx-auto mb-4' 
-        src="https://i.postimg.cc/9M9L17SG/Untitled-design.jpg" alt="profileImage" />
+        src="logos/me.png" alt="profileImage" style={{"objectFit":"cover","objectPosition":"center -50px", border: "2px solid #F7AB0A"}}/>
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]' >
                 Software Engineer

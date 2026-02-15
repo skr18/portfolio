@@ -5,7 +5,7 @@ import Link from "next/link";
 import { SocialIcon } from 'react-social-icons';
 
 // @ts-ignore
-const ExpCard= ( {key,proj, tech }) => {
+const ExpCard= ( {proj, tech }) => {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-2 sm:space-y-4 flex-shrink-0 w-[300px] md:w-[400px] xl:w-[660px] snap-center bg-[#292929] p-3 opacity-80 hover:opacity-100 cursor-pointer hover:ease-in-out transition-opacity duration-200 overflow-hidden'>
     <motion.img

@@ -25,16 +25,16 @@ function About({}: Props) {
             whileInView={{x:0 , opacity:1}}
             viewport={{once: true}}
             src='https://i.ibb.co/ZYgcJVH/Whats-App-Image-2023-02-08-at-11-48-14-PM.jpg'
-            className='-mb-32 md:mb-0 flex-shrink-0   w-32 h-32 rounded-full object-cover md:rounded-sm md:w-72 md:h-80 xl:w-[400px] xl:h-[450px] sm:rounded-sm sm:w-72 sm:h-80'
+            className='md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-sm md:w-72 md:h-80 xl:w-[400px] xl:h-[450px] sm:rounded-sm sm:w-72 sm:h-80 mt-28 lg:mt-0'
             alt='img'
         />
-         <div className="space-y-8 mt-8 px-0 md:px-10 md:mt-0">
+         <div className="space-y-6 mt-4 px-0 md:px-10 md:mt-0">
           {" "}
-          <h4 className="text-2xl font-semibold lg:text-3xl">
+          <h4 className="text-2xl font-semibold lg:text-3xl lg:mt-3">
             Here&#39;s a little{" "}
             <span className="text-[#F7AB0A]">{" <Background />"}</span>
           </h4>
-            <p className='text-xs lg:text-xl text-gray-300'>Hi I&apos;am Sujeet Rath. I&apos;m currently pursuing my BTech in Computer Science And Engineering from Silicon Institute of Technology, Bhubaneswar. I am a Full-Stack Developer and coder. I specialize in creating and maintaining websites and web applications using a variety of programming languages and libraries such as React, JavaScript, NodeJs, MongoDb, TailwindCSS and others. I have experience in Frontend and Backend Development, Building Responsive Frameworks, Design & Manage Database with best code practices .I am also proficient in coding languages such as C++, JAVA and PYTHON. I am passionate about creating innovative and user-friendly experiences and am constantly learning new skills and technologies to stay up-to-date in the field.</p>
+            <p className='text-xs lg:text-xl text-gray-300'>Hi I&apos;am Sujeet Rath, a DevOps & Full-Stack Engineer specializing in building resilient, cloud-native architectures that scale. With over <b>2 year's</b> of experience and a B.Tech in CSE from Silicon Institute of Technology (2024), I bridge the gap between development and production. Proficient in building end-to-end CI/CD pipelines using Jenkins, GitHub Webhooks, and GitOps practices with Argo CD, enabling zero-touch deployments on Kubernetes. Strong expertise in containerization using Docker (Multi-Stage & Distroless builds) and orchestration with Kubernetes, implementing auto-scaling (HPA) for production-grade deployments. <br></br><br></br>In addition, skilled MERN Stack Developer (MongoDB, Express.js, React, Node.js) with experience developing responsive full-stack applications and integrating backend services with modern frontend frameworks. Adept at bridging development and operations to accelerate release cycles, improve system performance, and drive DevOps culture. Passionate about automation, cloud-native technologies, and building high-availability systems that align with business scalability goals.</p>
             <div className="items-center mt-1">
             <a
               href="https://drive.google.com/drive/folders/1qZjbWu5yK4XxxSLeRr8mIVBKFSFogu4J?usp=sharing"

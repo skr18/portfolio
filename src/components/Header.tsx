@@ -27,24 +27,28 @@ function Header({}: Props) {
                 fgColor='#d6d4d4'
                 bgColor='transparent'
                 target='_blank'
+                title='Git Hub'
                 />
                 <SocialIcon
                 url='https://www.linkedin.com/in/sujeet-kumar-rath-43a273225/'
                 fgColor='#d6d4d4'
                 bgColor='transparent'
                 target='_blank'
+                 title='Linkdin'
                 />
                 <SocialIcon
-                url='https://leetcode.com/Sujeet_18/'
+                url='https://hashnode.com/6940540f8bd0efbbbe868b22/dashboard/series'
                 fgColor='#d6d4d4'
                 bgColor='transparent'
                 target='_blank'
+                 title='HashNode'
                  />
                 <SocialIcon
-                url='https://www.instagram.com/sujeetkumarrath/'
+                url='https://medium.com/me/stories?tab=posts-published'
                 fgColor='#d6d4d4'
                 bgColor='transparent'
                 target='_blank'
+                 title='Medium'
                 />
         </motion.div>
         <motion.div 
