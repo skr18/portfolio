@@ -25,7 +25,25 @@ function Exp({}: Props) {
       ],
     },
     {
-      role: "Cloud Architect - Intern",
+      role: "Intern",
+      pic:
+        "/logos/mindfire.png",
+      technologies: [
+        "https://swimburger.net/media/ppnn3pcl/azure.png",
+        "https://pandorafms.com/blog/wp-content/uploads/2016/03/docker-cloud-logo.png",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+        "https://img.icons8.com/color/512/azure-storage-explorer.png",
+      ],
+      company:"Mindfire Solutions",
+      date: "June 2023 - Jan 2024",
+      points: [
+        "Actively worked on Asp.Net framework building scalable web application.",
+        "Played a crucial role in the development of an HTML editor integrating functionalities inspired by GrapesJS. This initiative greatly facilitated company communication by enabling the creation and distribution of customized messages",
+        "Proficiently implemented AJAX for handling multiple asynchronous requests, thereby enabling dynamic data retrieval and seamless user interaction, resulting in highly responsive web applications.",
+      ],
+    },
+    {
+      role: "AWS Master - Bootcamp",
       pic:
         "/logos/ingenious-tech-world-logo.png",
       technologies: [
@@ -42,6 +60,24 @@ function Exp({}: Props) {
         "Design Virtual environment including server instance, storage instances,subnets,availability zones,etc",
       ],
     },
+    {
+      role: "Azure Master - Bootcamp",
+      pic:
+        "/logos/ingenious-tech-world-logo.png",
+      technologies: [
+        "https://swimburger.net/media/ppnn3pcl/azure.png",
+        "https://pandorafms.com/blog/wp-content/uploads/2016/03/docker-cloud-logo.png",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+        "https://img.icons8.com/color/512/azure-storage-explorer.png",
+      ],
+      company:"Ingenious Tech",
+      date: "June 2022 - August 2022",
+      points: [
+        "Gain Experience in defining new architectures and ability to drive project from architecture standpoint.",
+        "Managing different Subscriptions including required Cloud Services such as S2S,P2S,Network Gateways",
+        "Design Virtual environment including server instance, storage instances,subnets,availability zones,etc",
+      ],
+    }
   ];
   return (
     <motion.div 
@@ -54,7 +90,7 @@ function Exp({}: Props) {
             Experience
         </h3>
 
-        <div className='w-full mt-20 flex justify-center space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
+        <div className='w-full mt-20 flex  space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory  scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
         {exp.map((item) => (
           // @ts-ignore
           <ExpCard key={item.role} proj={item} tech={item.technologies} />

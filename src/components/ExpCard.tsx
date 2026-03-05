@@ -9,7 +9,7 @@ const ExpCard= ( {proj, tech }) => {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-2 sm:space-y-4 flex-shrink-0 w-[300px] md:w-[400px] xl:w-[660px] snap-center bg-[#292929] p-3 opacity-80 hover:opacity-100 cursor-pointer hover:ease-in-out transition-opacity duration-200 overflow-hidden'>
     <motion.img
-       className="h-20 w-32  xl:w-[170px] xl:h-[120px] object-cover object-center"
+       className="h-14 w-28  xl:w-[140px] xl:h-[80px] object-cover object-center rounded-lg"
        src={proj.pic}
        alt=""
        initial={{
