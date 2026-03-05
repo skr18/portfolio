@@ -56,11 +56,11 @@ function Skills({ }: Props) {
           img:
             "https://user-images.githubusercontent.com/29685463/215034514-1a9c7e9a-dcf1-486b-bd58-fb607ba31c9f.png",
         },
-        {
-          name: "Tailwind",
-          img:
-            "https://user-images.githubusercontent.com/29685463/215034549-6f57bf5d-6c0a-4613-bdee-88138b830b62.png",
-        },
+        // {
+        //   name: "Tailwind",
+        //   img:
+        //     "https://user-images.githubusercontent.com/29685463/215034549-6f57bf5d-6c0a-4613-bdee-88138b830b62.png",
+        // },
         {
           name: "React",
           img:
@@ -71,13 +71,6 @@ function Skills({ }: Props) {
           img:
             "https://user-images.githubusercontent.com/29685463/215058305-c6a71893-bbaa-4cce-ba39-44f16d82f405.png",
         },
-
-        {
-          name: "Firebase",
-          img:
-            "https://user-images.githubusercontent.com/29685463/215034516-095feb28-0dab-4528-aca5-92067d3a9f49.png",
-        },
-
         {
           name: "MySQL",
           img:
@@ -169,7 +162,12 @@ function Skills({ }: Props) {
           img:
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
         },
-        
+         {
+          name: "Firebase",
+          img:
+            "https://user-images.githubusercontent.com/29685463/215034516-095feb28-0dab-4528-aca5-92067d3a9f49.png",
+        },
+
       ]
     }
     // CLOUD SKILLS
@@ -193,7 +191,7 @@ function Skills({ }: Props) {
         uppercase tracking-[3px] text-gray-600 text-sm pt-6'>
         Hover over a skill for its name
       </h3>
-      <div className='relative top-20 grid gap-16'>
+      <div className='relative top-20 grid gap-5 xl:gap-16'>
         {skill_arr.map((group) => (
           <div
             key={group.category}
@@ -206,7 +204,7 @@ function Skills({ }: Props) {
             </h3>
 
             {/* RIGHT SKILLS */}
-            <div className="flex flex-wrap gap-6 justify-center">
+            <div className="flex flex-wrap gap-6 justify-center ml-2 mr-2">
               {group.skills.map((skill) => (
                 <SkillLogo
                   key={skill.name}

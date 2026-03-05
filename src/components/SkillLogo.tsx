@@ -12,7 +12,7 @@ function SkillLogo({key,img,title}: Props) {
     // console.log("name=",{title});
     // console.log("img=",{img});
   return (
-    <div className="left-0 x-0 items-center group relative flex cursor-pointer ">
+    <div className="items-center group relative flex cursor-pointer">
     <motion.div
       initial={{
         scale: 0,

@@ -28,7 +28,7 @@ function About({}: Props) {
             className='md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-sm md:w-72 md:h-80 xl:w-[400px] xl:h-[450px] sm:rounded-sm sm:w-72 sm:h-80 mt-28 lg:mt-0'
             alt='img'
         />
-         <div className="space-y-6 mt-4 px-0 md:px-10 md:mt-0">
+         <div className="space-y-6 px-0 md:px-10 md:mt-0">
           {" "}
           <h4 className="text-2xl font-semibold lg:text-3xl lg:mt-3">
             Here&#39;s a little{" "}
